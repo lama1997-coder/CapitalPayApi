@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "gHqR7SgJmNpVtTX2mUiGdfAUOuDyijm2CMyqkc3QVv0=",
+  "Source": "apiTest",
+  "BasePath": "_content/apiTest",
+  "Mode": "Default",
+  "ManifestType": "Publish",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
