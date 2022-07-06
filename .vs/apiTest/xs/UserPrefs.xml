@@ -1,20 +1,27 @@
 ﻿<Properties StartupConfiguration="{613975CE-6AE6-49CB-980F-2EE3E60DFD67}|Default">
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.apiTest PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="apiTest/Services/AuthService.cs">
+    <Files>
+      <File FileName="apiTest/Services/AuthService.cs" Line="32" Column="10" />
+      <File FileName="apiTest/Program.cs" Line="33" Column="1" />
+      <File FileName="apiTest/appsettings.json" Line="17" Column="4" />
+      <File FileName="apiTest/Controllers/AuthController.cs" Line="31" Column="49" />
+      <File FileName="apiTest/Services/CapitalPayServices.cs" Line="40" Column="1" />
+      <File FileName="apiTest/ViewModel/UserModel.cs" Line="8" Column="1" />
+      <File FileName="apiTest/ViewModel/Customer.cs" Line="9" Column="27" />
+    </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Option id="ShowAllFiles" value="True" />
-          <Node name="apiTest" expanded="True" selected="True">
-            <Node name=".git" expanded="True" />
+          <Node name="apiTest" expanded="True">
             <Node name="apiTest" expanded="True">
               <Node name="Controllers" expanded="True" />
-              <Node name="Model" expanded="True" />
               <Node name="Properties" expanded="True">
                 <Node name="PublishProfiles" expanded="True" />
               </Node>
+              <Node name="Services" expanded="True">
+                <Node name="AuthService.cs" selected="True" />
+              </Node>
+              <Node name="ViewModel" expanded="True" />
               <Node name="appsettings.json" expanded="True" />
             </Node>
           </Node>
@@ -25,11 +32,11 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore>
-      <Breakpoint file="/Users/WAT/Projects/apiTest/apiTest/Controllers/AuthController.cs" relfile="apiTest/Controllers/AuthController.cs" line="22" column="1" />
-      <Breakpoint file="/Users/WAT/Projects/apiTest/apiTest/Controllers/AuthController.cs" relfile="apiTest/Controllers/AuthController.cs" line="55" column="1" />
-    </BreakpointStore>
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.apiTest PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
 </Properties>

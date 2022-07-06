@@ -233,3 +233,10 @@
 /Users/WAT/Projects/apiTest/apiTest/obj/Release/net6.0/apiTest.pdb
 /Users/WAT/Projects/apiTest/apiTest/obj/Release/net6.0/apiTest.genruntimeconfig.cache
 /Users/WAT/Projects/apiTest/apiTest/obj/Release/net6.0/ref/apiTest.dll
+/Users/WAT/Projects/apiTest/apiTest/bin/Release/net6.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
+/Users/WAT/Projects/apiTest/apiTest/bin/Release/net6.0/Microsoft.IdentityModel.JsonWebTokens.dll
+/Users/WAT/Projects/apiTest/apiTest/bin/Release/net6.0/Microsoft.IdentityModel.Logging.dll
+/Users/WAT/Projects/apiTest/apiTest/bin/Release/net6.0/Microsoft.IdentityModel.Protocols.dll
+/Users/WAT/Projects/apiTest/apiTest/bin/Release/net6.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+/Users/WAT/Projects/apiTest/apiTest/bin/Release/net6.0/Microsoft.IdentityModel.Tokens.dll
+/Users/WAT/Projects/apiTest/apiTest/bin/Release/net6.0/System.IdentityModel.Tokens.Jwt.dll

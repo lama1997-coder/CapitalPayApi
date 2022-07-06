@@ -2,34 +2,33 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
-using System.Net;
 using apiTest.Model;
-using System.Text.Json;
-using Microsoft.AspNetCore.Authorization;
-using System.Net.Http.Headers;
-using apiTest.Utilities;
 using apiTest.Services;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
+
+// For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
 namespace apiTest.Controllers
 {
-    [Route("api/")]
+    [Authorize]
+    [Route("api/common")]
     [ApiController]
-    public class AuthController : ControllerBase
-    {
-        private readonly AuthService _authService;
 
-        public AuthController(AuthService authService)
+    public class CommonController : Controller
+    {
+        private readonly CommonService _commonService;
+
+        public CommonController(CommonService commonService)
         {
-            _authService = authService;
+            _commonService = commonService;
         }
-        [HttpPost("login")]
-        public async Task<IActionResult> LoginAsync(UserModel userModel)
+       
+        [HttpGet("locales")]
+        public async Task< IActionResult> getLocal()
         {
-           
-            var response = await _authService.login(userModel);
-            if (response!=null)
+            var response = await _commonService.local();
+            if (response != null)
             {
                 return Ok(
                 new ResponseModel
@@ -53,10 +52,6 @@ namespace apiTest.Controllers
 
                 }); ;
         }
-
-     
-
     }
     }
-
 
