@@ -1,10 +1,7 @@
 ﻿using apiTest.Services;
 using apiTest.Utilities;
-<<<<<<< HEAD
+using Microsoft.OpenApi.Models;
 using System.Configuration;
-
-var builder = WebApplication.CreateBuilder(args);
-=======
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
@@ -26,24 +23,20 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
            IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(builder.Configuration["JWT:Secret"]))
        };
    });
->>>>>>> 3dd600a (Login)
-
+ 
 // Add services to the container.
 
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
-
-
 builder.Services.Configure<CapitalPayConfig>(builder.Configuration.GetSection("CapitalPay"));
 builder.Services.AddScoped<CapitalPayServices>();
 builder.Services.AddScoped<AuthService>();
-<<<<<<< HEAD
-=======
+
 builder.Services.AddScoped<CommonService>();
 
 
->>>>>>> 3dd600a (Login)
+
 
 
 /* --------------------------------- Swagger -------------------------------- */

@@ -11,10 +11,8 @@
     <Content Remove="Repository\**" />
     <EmbeddedResource Remove="Repository\**" />
     <None Remove="Repository\**" />
-<<<<<<< HEAD
-=======
     <None Remove="Microsoft.AspNetCore.Authentication.JwtBearer" />
->>>>>>> 3dd600a (Login)
+    <None Remove="Server\" />
   </ItemGroup>
 
   <ItemGroup>
@@ -33,5 +31,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Controllers\" />
+    <Folder Include="Server\" />
   </ItemGroup>
 </Project>
