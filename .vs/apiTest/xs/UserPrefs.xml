@@ -1,18 +1,31 @@
-﻿<Properties>
-  <MonoDevelop.Ide.Workbench ActiveDocument="apiTest/Controllers/AuthController.cs">
+﻿<Properties StartupConfiguration="{613975CE-6AE6-49CB-980F-2EE3E60DFD67}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="apiTest/Controllers/CommonController.cs">
     <Files>
-      <File FileName="apiTest/Services/AuthService.cs" Line="60" Column="1" />
-      <File FileName="apiTest/Program.cs" Line="41" Column="1" />
+      <File FileName="apiTest/Services/AuthService.cs" Line="4" Column="19" />
+      <File FileName="apiTest/Program.cs" Line="31" Column="34" />
       <File FileName="apiTest/appsettings.json" Line="17" Column="1" />
       <File FileName="apiTest/Controllers/AuthController.cs" Line="31" Column="49" />
-      <File FileName="apiTest/Services/CapitalPayServices.cs" Line="97" Column="1" />
       <File FileName="apiTest/ViewModel/UserModel.cs" Line="8" Column="1" />
       <File FileName="apiTest/ViewModel/Customer.cs" Line="4" Column="6" />
+      <File FileName="apiTest/Services/CommonService.cs" Line="16" Column="87" />
+      <File FileName="apiTest/Controllers/CommonController.cs" Line="154" Column="38" />
+      <File FileName="apiTest/Server/APINames.cs" Line="18" Column="1" />
+      <File FileName="apiTest/ViewModel/CustomerModel.cs" Line="1" Column="1" />
+      <File FileName="apiTest/ViewModel/ResponseModel.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="apiTest" expanded="True" selected="True" />
+          <Node name="apiTest" expanded="True">
+            <Node name="apiTest" expanded="True">
+              <Node name="Controllers" expanded="True">
+                <Node name="CommonController.cs" selected="True" />
+              </Node>
+              <Node name="Server" expanded="True" />
+              <Node name="Services" expanded="True" />
+              <Node name="ViewModel" expanded="True" />
+            </Node>
+          </Node>
         </State>
       </Pad>
       <Pad Id="MonoDevelop.Debugger.WatchPad">
@@ -20,6 +33,7 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.apiTest PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
