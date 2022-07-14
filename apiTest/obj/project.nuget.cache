@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "YWddy95NqhHspMEIu+sjUecgwBOhBz3Bql2oIp1NZq5KSzcGNFRaATDUUvbrqo5IsDvqWSEo0zmQjEpgG6agWg==",
+  "dgSpecHash": "bzyU6KyOQ2Zxi25iTZyk9C26BTq9QvXTSElYphDq/8if2+u+zAUTA/T82+bEt4mFoGeTKGBZB8jkr56rUsIrqw==",
   "success": true,
   "projectFilePath": "/Users/WAT/Projects/apiTest/apiTest/apiTest.csproj",
   "expectedPackageFiles": [
@@ -174,12 +174,5 @@
     "/Users/WAT/.nuget/packages/system.xml.readerwriter/4.3.0/system.xml.readerwriter.4.3.0.nupkg.sha512",
     "/Users/WAT/.nuget/packages/system.xml.xdocument/4.3.0/system.xml.xdocument.4.3.0.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problem reading the cache file /Users/WAT/Projects/apiTest/apiTest/obj/project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  "logs": []
 }

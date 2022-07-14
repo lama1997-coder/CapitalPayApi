@@ -1,4 +1,7 @@
 ﻿<Properties StartupConfiguration="{613975CE-6AE6-49CB-980F-2EE3E60DFD67}|Default">
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.Workbench ActiveDocument="apiTest/Controllers/CommonController.cs">
     <Files>
       <File FileName="apiTest/Services/AuthService.cs" Line="4" Column="19" />
@@ -8,7 +11,7 @@
       <File FileName="apiTest/ViewModel/UserModel.cs" Line="8" Column="1" />
       <File FileName="apiTest/ViewModel/Customer.cs" Line="4" Column="6" />
       <File FileName="apiTest/Services/CommonService.cs" Line="16" Column="87" />
-      <File FileName="apiTest/Controllers/CommonController.cs" Line="154" Column="38" />
+      <File FileName="apiTest/Controllers/CommonController.cs" Line="37" Column="43" />
       <File FileName="apiTest/Server/APINames.cs" Line="18" Column="1" />
       <File FileName="apiTest/ViewModel/CustomerModel.cs" Line="1" Column="1" />
       <File FileName="apiTest/ViewModel/ResponseModel.cs" Line="1" Column="1" />
@@ -18,9 +21,7 @@
         <State name="__root__">
           <Node name="apiTest" expanded="True">
             <Node name="apiTest" expanded="True">
-              <Node name="Controllers" expanded="True">
-                <Node name="CommonController.cs" selected="True" />
-              </Node>
+              <Node name="Controllers" expanded="True" />
               <Node name="Server" expanded="True" />
               <Node name="Services" expanded="True" />
               <Node name="ViewModel" expanded="True" />
@@ -33,11 +34,8 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.apiTest PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.apiTest PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations />
 </Properties>
